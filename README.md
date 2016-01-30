@@ -1,3 +1,4 @@
+
 The following steps explain how the run_analysis.R script works to produce the required output for the project which is the Tidy dataset text file.
 
 1. Download the dataset using the link "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip".
@@ -19,3 +20,9 @@ The run_analysis.R code does the following to generate the tidy dataset output:
 7. Labels the variable names of the "RequiredDataset" with descriptive names.
 8. Using plyr package and ddply function,  creates a final, independent tidy data set with the average of each variable for each activity and each subject.
 9. Using write.table function creates a Tidy.txt file in the working directory.
+=======
+# Getting-and-Cleaning-Data-Course-Project
+Creating tidy dataset
+
+
+
